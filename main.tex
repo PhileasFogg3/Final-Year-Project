@@ -621,10 +621,211 @@ Additionally, Table 3.4 shows the percentage difference in the time it takes eac
 Ultimately, Table 3.4 shows that the airspace density has a very small to negligible impact on aircraft’s flight times across the Atlantic Ocean.
 
 \subsection{Scenario 4: Zero Tracks System, 100\% Traffic Density}
+The distribution of aircraft entering oceanic airspace for Scenario Four can be seen below in Figure 3.5.
+
+\begin{figure}[H]
+    \caption{This figure shows the normal distribution of aircraft entering oceanic airspace in Scenario 4 over a 48 hour period.}
+    \label{fig:3.5}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/Figure 3.5.png}    
+\end{figure}
+
+Table 3.5 shows the average information for the different types of air traffic that made the Atlantic crossing in this simulation. According to the software, on 118358 occasions throughout the 48-hour period, a traffic intervention occured - preventing two aircraft from colliding. This number is incredibly high and is likely incorrect due to several factors:
+When visually inspecting the simulation (while in progress), there are not this many conflicts. 
+If true, there would be a conflict roughly every two seconds (assuming a constant stream of traffic, which we know is not the case). 
+Unfortunately, very late into the project, a “bug” inside of the RADAR software was encountered, which triggered the logging of a conflict numerous times per conflict. The effect of this bug got exponentially larger as the number of conflicts increased.
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the simulation data for scenario four, for each of the different aircraft types that were included. The crossing time is given in minutes.}
+    \label{tab:3.5}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Aircraft Type} & \textbf{Number of Aircraft} & \textbf{Average Crossing Time} \\ \midrule
+    B789                   & 372                         & 141.6                          \\
+    B77W                   & 319                         & 147.6                          \\
+    B788                   & 320                         & 150.6                          \\
+    B772                   & 316                         & 158.2                          \\
+    A359                   & 273                         & 141.7                          \\
+    A333                   & 242                         & 144.9                          \\
+    A332                   & 206                         & 149.7                          \\
+    A339                   & 178                         & 156.1                          \\
+    A35K                   & 141                         & 132.6                          \\
+    B77L                   & 127                         & 143                            \\
+    B748                   & 98                          & 158.5                          \\
+    B78X                   & 92                          & 159.8                          \\
+    B763                   & 131                         & 177.7                          \\
+    B744                   & 96                          & 161.5                          \\
+    B764                   & 68                          & 178.6                          \\
+    A388                   & 81                          & 148.3                          \\
+    A343                   & 27                          & 142.9                          \\
+    B752                   & 29                          & 171.2                          \\
+    A346                   & 41                          & 137.8                          \\ \bottomrule
+    \end{tabular}
+\end{table}
+
 \subsection{Scenario 5: Zero Tracks System, 90\% Traffic Density}
+The distribution of aircraft entering oceanic airspace for Scenario Five can be seen below in Figure 3.6.
+
+\begin{figure}[H]
+    \caption{This figure shows the normal distribution of aircraft entering oceanic airspace in Scenario 5 over a 48 hour period.}
+    \label{fig:3.6}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/Figure 3.6.png}    
+\end{figure}
+
+Table 3.6 shows the average information for the different types of air traffic that made the Atlantic crossing in this simulation. According to the software, on 60719 occasions throughout the 48-hour period, a traffic intervention occured - preventing two aircraft from colliding. Clearly, the “bug” discussed in Scenario 4 is still present here. However, the difference can be observed to be significantly smaller. From this it can be inferred that for the zero track system, traffic density has a much larger impact on conflicts compared to the OTS. 
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the simulation data for scenario five, for each of the different aircraft types that were included. The crossing time is given in minutes.}
+    \label{tab:36}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Aircraft Type} & \textbf{Number of Aircraft} & \textbf{Average Crossing Time} \\ \midrule
+    B789                   & 267                         & 135.5                          \\
+    B77W                   & 247                         & 128.3                          \\
+    B788                   & 231                         & 133.6                          \\
+    B772                   & 229                         & 164.4                          \\
+    A359                   & 174                         & 129.7                          \\
+    A333                   & 185                         & 139.5                          \\
+    A332                   & 137                         & 142                            \\
+    A339                   & 132                         & 142.3                          \\
+    A35K                   & 106                         & 144.5                          \\
+    B77L                   & 78                          & 134.5                          \\
+    B748                   & 72                          & 160.1                          \\
+    B78X                   & 66                          & 154.1                          \\
+    B763                   & 108                         & 182.1                          \\
+    B744                   & 79                          & 156.2                          \\
+    B764                   & 53                          & 180.9                          \\
+    A388                   & 45                          & 159.4                          \\
+    A343                   & 26                          & 141.6                          \\
+    B752                   & 19                          & 152                            \\
+    A346                   & 23                          & 165.6                          \\ \bottomrule
+    \end{tabular}
+\end{table}
+
 \subsection{Scenario 6: Zero Tracks System, 110\% Traffic Density}
+The distribution of aircraft entering oceanic airspace for Scenario Five can be seen below in Figure 3.7.
+
+\begin{figure}[H]
+    \caption{This figure shows the normal distribution of aircraft entering oceanic airspace in Scenario 6 over a 48 hour period.}
+    \label{fig:3.7}
+    \centering
+    \includegraphics[width=1.1\textwidth]{pictures/Figure 3.7.png}    
+\end{figure}
+
+Table 3.7 shows the average information for the different types of air traffic that made the Atlantic crossing in this simulation. According to the software, on 177004 occasions throughout the 48-hour period, a traffic intervention occured - preventing two aircraft from colliding. The same issue is clearly present again. However, it should be noted that the difference between the value observed in Scenario 4 could still be useful.
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the simulation data for scenario six, for each of the different aircraft types that were included. The crossing time is given in minutes.}
+    \label{tab:37}
+    \begin{tabular}{@{}ccc@{}}
+    \toprule
+    \textbf{Aircraft Type} & \textbf{Number of Aircraft} & \textbf{Average Crossing Time} \\ \midrule
+    B789                   & 426                         & 140.1                          \\
+    B77W                   & 359                         & 140.8                          \\
+    B788                   & 311                         & 154.6                          \\
+    B772                   & 360                         & 156.9                          \\
+    A359                   & 274                         & 136.9                          \\
+    A333                   & 307                         & 150                            \\
+    A332                   & 168                         & 148.3                          \\
+    A339                   & 199                         & 137.7                          \\
+    A35K                   & 169                         & 143.4                          \\
+    B77L                   & 141                         & 142.6                          \\
+    B748                   & 107                         & 158                            \\
+    B78X                   & 113                         & 155.5                          \\
+    B763                   & 154                         & 174.8                          \\
+    B744                   & 102                         & 152.3                          \\
+    B764                   & 82                          & 170.5                          \\
+    A388                   & 85                          & 151.6                          \\
+    A343                   & 42                          & 127.7                          \\
+    B752                   & 33                          & 149.5                          \\
+    A346                   & 42                          & 156.8                          \\ \bottomrule
+    \end{tabular}
+\end{table}
+\subsection{Summary of Scenarios 4, 5 and 6}
+Figure 3.8 shows the relationship between airspace density and number of aircraft interventions for the Zero Track System. This relationship appears to be linear in nature. However, it must be remembered that the values obtained are clearly incorrect due to the bug in the RADAR software. The linear relationship, however, is useful to be aware of.
+
+\begin{figure}[H]
+    \caption{This graph shows the relationship between airspace density and number of aircraft interventions.}
+    \label{fig:3.4}
+    \centering
+    \resizebox{1.0\textwidth}{!}{%
+    \begin{tikzpicture}
+        \begin{axis}[
+            title={Rate of Increase of Aircraft Interventions with respect to Airspace Density for the OTS System},
+            xlabel={\% Airspace Density},
+            ylabel={Number of Interventions},
+            xmin=85, xmax=115,
+            ymin=60000, ymax=180000,
+            xtick={90, 100, 110},
+            ytick={60000, 80000, 100000, 120000, 140000, 160000, 180000},
+            grid=both,
+            width=14cm,
+            height=8cm,
+            thick
+        ]
+        \addplot[
+            color=blue,
+            mark=*,
+            smooth
+        ]
+        coordinates {
+            (90, 60719)
+            (100, 118358)
+            (110, 177004)
+        };
+        \end{axis}
+    \end{tikzpicture}
+    }
+\end{figure}
+
+Additionally, Table 3.8 shows the percentage difference in the time it takes each aircraft type to fly over the Atlantic Ocean, given the different airspace densities.
+
+\begin{table}[H]
+    \centering
+    \caption{This table shows the percentage difference in Atlantic crossing times for the different aircraft types, when operating with the Zero Track System at different airspace densities.}
+    \label{tab:38}
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    \textbf{Aircraft Type} & \textbf{Absolute Difference} \\ \midrule
+    B789                   & 4.39\%                       \\
+    B77W                   & 13.89\%                      \\
+    B788                   & 14.36\%                      \\
+    B772                   & 4.69\%                       \\
+    A359                   & 8.82\%                       \\
+    A333                   & 7.25\%                       \\
+    A332                   & 5.25\%                       \\
+    A339                   & 12.66\%                      \\
+    A35K                   & 8.49\%                       \\
+    B77L                   & 6.07\%                       \\
+    B748                   & 1.32\%                       \\
+    B78X                   & 3.64\%                       \\
+    B763                   & 4.10\%                       \\
+    B744                   & 5.87\%                       \\
+    B764                   & 5.89\%                       \\
+    A388                   & 7.25\%                       \\
+    A343                   & 11.06\%                      \\
+    B752                   & 13.77\%                      \\
+    A346                   & 18.12\%                      \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Ultimately, Table 3.8 shows that the airspace density has a somewhat significant impact on the time it takes to cross the Atlantic, with the highest difference being 18.12%.  
+
 \subsection{Summary of Results}
+Ultimately, there are several key observations that can be taken away from the simulations:
+\begin{enumerate}
+    \item The time taken for aircraft to cross the North Atlantic Ocean is much smaller using the Zero Track system compared to the OTS. 
+    \item Traffic Density has a much bigger impact on flight times for the Zero Track system compared to the OTS. 
+    \item The relationship of interventions to traffic density is exponential for the OTS, but linear for the Zero Track System (although there is a flaw with the software that could have manipulated these numbers). 
+\end{enumerate}
+
+\newpage
 \section{Discussion}
+
 \section{Conclusions}
 \section{Recommendations}
 

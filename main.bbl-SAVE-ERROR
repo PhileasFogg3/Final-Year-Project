@@ -1,0 +1,1195 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/apasortcite//global/global}
+    \entry{AvionixTech}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb1de762f71a7dce3922252bed7f68ed}{%
+           family={{Avionix Technologies}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{fullhash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{bibnamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authorbibnamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authornamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authorfullhash}{fb1de762f71a7dce3922252bed7f68ed}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Avionix Technologies}
+      \field{title}{The difference between Radar and {ADS-B}}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://www.avionix-tech.com/blog/The-difference-between-Radar-and-ADS-B/
+      \endverb
+      \verb{url}
+      \verb https://www.avionix-tech.com/blog/The-difference-between-Radar-and-ADS-B/
+      \endverb
+    \endentry
+    \entry{SpaceBasedADSBPerformanceArchitectureAndMarket}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4f04c9d22b34915b093f8443d4fe43a}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {5075 Highbourne Lane, Centreville, VA 20120}%
+      }
+      \list{organization}{1}{%
+        {Summit Space Corporation}%
+      }
+      \strng{namehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{fullhash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{bibnamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authorbibnamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authornamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authorfullhash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{SPACE-BASED ADS-B: PERFORMANCE, ARCHITECTURE AND MARKET}
+      \field{year}{2019}
+      \field{pages}{pg.4G1-1 - pg.4G1\bibrangedash 10}
+      \range{pages}{-1}
+    \endentry
+    \entry{AircraftSurveillanceFromSpace}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a896942ad2c2c30481ed1ea93cc7857d}{%
+           family={Budroweit},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efea49efc442cc4b897931fb7b184774}{%
+           family={Eichstaedt},
+           familyi={E\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17cc18583502c0f8244d49e64dea4247}{%
+           family={Delovski},
+           familyi={D\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{096635b728c3898ca5dabf3654d160d1}
+      \strng{fullhash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{bibnamehash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{authorbibnamehash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{authornamehash}{096635b728c3898ca5dabf3654d160d1}
+      \strng{authorfullhash}{32031e4743c782248d9e30e6983bb2de}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Microwave Magazine}
+      \field{month}{11}
+      \field{title}{Aircraft Surveillance From Space: The Future of Air Traffic Control?}
+      \field{year}{2024}
+      \field{pages}{pg.68\bibrangedash pg.76}
+      \range{pages}{-1}
+    \endentry
+    \entry{SpaceBasedADSBChangesFlying}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7525ba4c83767e99cf785aa68f26cb6}{%
+           family={Business},
+           familyi={B\bibinitperiod},
+           given={AirGuide},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{fullhash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{bibnamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authorbibnamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authornamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authorfullhash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pyramid Media Group, Inc}
+      \field{month}{3}
+      \field{title}{How space-based ADS-B plane-tracking tech is changing flying across the North Atlantic.}
+      \field{year}{2022}
+    \endentry
+    \entry{EUROCONTROLAircraftPerformance}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fda1ae1d8b330e0abf0735548ea3eb7}{%
+           family={{EUROCONTROL}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{fullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{bibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorbibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authornamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorfullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Aircraft Performance Database}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FAA_DEC}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6baf5d924bfc839b6056cf14b7299f2f}{%
+           family={{Federal Aviation Administration}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{fullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{bibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorbibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authornamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorfullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.faa.gov/air_traffic/flight_info/aeronav/productcatalog/digitalproducts/dec/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Digital Enroute Charts (DEC)}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FAA_NAT}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6baf5d924bfc839b6056cf14b7299f2f}{%
+           family={{Federal Aviation Administration}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{fullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{bibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorbibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authornamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorfullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.notams.faa.gov/common/nat.html}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{North Atlantic Tracks (NAT) NOTAMs}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FlightAwareAeroAPI}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eadece48368546906390d51f41ab348b}{%
+           family={{FlightAware}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eadece48368546906390d51f41ab348b}
+      \strng{fullhash}{eadece48368546906390d51f41ab348b}
+      \strng{bibnamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authorbibnamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authornamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authorfullhash}{eadece48368546906390d51f41ab348b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.flightaware.com/commercial/aeroapi/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{AeroAPI: Flight Tracking and Flight Status API}
+      \field{year}{n.d.}
+    \endentry
+    \entry{flightRadar}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b695132c93d27aeed6669366487ec0ae}{%
+           family={Flightradar24},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Flightradar24}%
+      }
+      \strng{namehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{fullhash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{bibnamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authorbibnamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authornamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authorfullhash}{b695132c93d27aeed6669366487ec0ae}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{How does ADS-B work?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=7K1xFb1REHU
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=7K1xFb1REHU
+      \endverb
+    \endentry
+    \entry{ForeFlight}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d422d6f6e02d9e486932c5de18e1937}{%
+           family={{ForeFlight}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{fullhash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{bibnamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authorbibnamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authornamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authorfullhash}{5d422d6f6e02d9e486932c5de18e1937}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{ForeFlight Blog}
+      \field{title}{North Atlantic tracks}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://ba.foreflight.com/blog/north-atlantic-tracks
+      \endverb
+      \verb{url}
+      \verb https://ba.foreflight.com/blog/north-atlantic-tracks
+      \endverb
+    \endentry
+    \entry{AireonSpaceBasedADSBPerformanceModel}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2a1125838428f73e781cfd0245c1420f}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Dr.\bibnamedelimi Michael\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c22c98a4d77acd60e7c1f7c6c0bbaf1}{%
+           family={Stafford},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7728d15fd364e9bdbb93ce36684041bf}{%
+           family={Minnix},
+           familyi={M\bibinitperiod},
+           given={Dr.Jay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1393f6cf9bcbc1103e8795c0d0117b}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{2}{%
+        {Integrated Communications Navigation}%
+        {Surveillance (ICNS) Conference}%
+      }
+      \strng{namehash}{424051a73322d6b7fbf41ad970f8ce5f}
+      \strng{fullhash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{bibnamehash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{authorbibnamehash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{authornamehash}{424051a73322d6b7fbf41ad970f8ce5f}
+      \strng{authorfullhash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{AIREON SPACE BASED ADS-B PERFORMANCE MODEL}
+      \field{year}{2015}
+      \field{pages}{pg.C2-1 - pg.C2\bibrangedash 10}
+      \range{pages}{-1}
+    \endentry
+    \entry{ICAO2007}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a65e1805611d67a7aa59578c593ca553}{%
+           family={{International Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{fullhash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{bibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorbibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authornamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorfullhash}{a65e1805611d67a7aa59578c593ca553}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.icao.int/APAC/Documents/edocs/cns/gmst_technology.pdf}}
+      \field{month}{9}
+      \field{title}{Guidance Material on Comparison of Surveillance Technologies (GMST)}
+      \field{year}{2007}
+    \endentry
+    \entry{ICAO_FIR}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a65e1805611d67a7aa59578c593ca553}{%
+           family={{International Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{fullhash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{bibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorbibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authornamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorfullhash}{a65e1805611d67a7aa59578c593ca553}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gis.icao.int/icaofir/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{ICAO Flight Information Regions (FIR) GIS Database}
+      \field{year}{n.d.}
+    \endentry
+    \entry{NaturalEarth}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d8d97cbb83c176a9c4f481742eb3a014}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50484019193f9d0706d767014edd8d87}{%
+           family={Kelso},
+           familyi={K\bibinitperiod},
+           given={Nathaniel\bibnamedelima Vaughn},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{fullhash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{bibnamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authorbibnamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authornamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authorfullhash}{38b8e9cfa741c75d987222792fa54450}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.naturalearthdata.com/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Natural Earth: Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales}
+      \field{year}{2009}
+    \endentry
+    \entry{QGIS}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87a6547ad0a49e77c9adf891d4365979}{%
+           family={{QGIS Development Team}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{fullhash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{bibnamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authorbibnamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authornamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authorfullhash}{87a6547ad0a49e77c9adf891d4365979}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://qgis.org/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{QGIS Geographic Information System}
+      \field{year}{2002}
+    \endentry
+    \entry{OTS}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=134b25da1beac8f995696345e49ae3d5}{%
+           family={Rodionova},
+           familyi={R\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1114d9239b127ca996745989dab25676}{%
+           family={Sbihi},
+           familyi={S\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0aa4f8579303710b71430ead48cc5909}{%
+           family={Mongeau},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b6e8f37920d5b8fa1ddef3d260c1678}
+      \strng{fullhash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{bibnamehash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{authorbibnamehash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{authornamehash}{3b6e8f37920d5b8fa1ddef3d260c1678}
+      \strng{authorfullhash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligent Transportation Systems, IEEE Transactions on}
+      \field{month}{10}
+      \field{title}{North Atlantic Aircraft Trajectory Optimization}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{2202\bibrangedash 2212}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TITS.2014.2312315
+      \endverb
+    \endentry
+    \entry{SKYbrary}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79a2ac615c1a21a18553185ee68e65a}{%
+           family={{SKYbrary}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{fullhash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{bibnamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authorbibnamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authornamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authorfullhash}{b79a2ac615c1a21a18553185ee68e65a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{SKYbrary}
+      \field{title}{North Atlantic operations - airspace}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://skybrary.aero/articles/north-atlantic-operations-airspace
+      \endverb
+      \verb{url}
+      \verb https://skybrary.aero/articles/north-atlantic-operations-airspace
+      \endverb
+    \endentry
+    \entry{T2}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee5ad301c025df4d6e73f613e06dc048}{%
+           family={Terminal2Solutions},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{fullhash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{bibnamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authorbibnamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authornamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authorfullhash}{ee5ad301c025df4d6e73f613e06dc048}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{T2:Controller}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://t2s.aero/products/controller
+      \endverb
+      \verb{url}
+      \verb https://t2s.aero/products/controller
+      \endverb
+    \endentry
+    \entry{Young2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3b32658318174b623276ac69a08f9fc}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{fullhash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{bibnamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authorbibnamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authornamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authorfullhash}{a3b32658318174b623276ac69a08f9fc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://nats.aero/blog/2021/03/nats-records-first-day-with-zero-westbound-north-atlantic-tracks/}}
+      \field{month}{3}
+      \field{title}{NATS records first day with zero westbound North Atlantic tracks}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+  \datalist[entry]{nyt/global//global/global}
+    \entry{AvionixTech}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb1de762f71a7dce3922252bed7f68ed}{%
+           family={{Avionix Technologies}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{fullhash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{bibnamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authorbibnamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authornamehash}{fb1de762f71a7dce3922252bed7f68ed}
+      \strng{authorfullhash}{fb1de762f71a7dce3922252bed7f68ed}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Avionix Technologies}
+      \field{title}{The difference between Radar and {ADS-B}}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://www.avionix-tech.com/blog/The-difference-between-Radar-and-ADS-B/
+      \endverb
+      \verb{url}
+      \verb https://www.avionix-tech.com/blog/The-difference-between-Radar-and-ADS-B/
+      \endverb
+    \endentry
+    \entry{SpaceBasedADSBPerformanceArchitectureAndMarket}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4f04c9d22b34915b093f8443d4fe43a}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {5075 Highbourne Lane, Centreville, VA 20120}%
+      }
+      \list{organization}{1}{%
+        {Summit Space Corporation}%
+      }
+      \strng{namehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{fullhash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{bibnamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authorbibnamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authornamehash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \strng{authorfullhash}{f4f04c9d22b34915b093f8443d4fe43a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{SPACE-BASED ADS-B: PERFORMANCE, ARCHITECTURE AND MARKET}
+      \field{year}{2019}
+      \field{pages}{pg.4G1-1 - pg.4G1\bibrangedash 10}
+      \range{pages}{-1}
+    \endentry
+    \entry{AircraftSurveillanceFromSpace}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a896942ad2c2c30481ed1ea93cc7857d}{%
+           family={Budroweit},
+           familyi={B\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efea49efc442cc4b897931fb7b184774}{%
+           family={Eichstaedt},
+           familyi={E\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17cc18583502c0f8244d49e64dea4247}{%
+           family={Delovski},
+           familyi={D\bibinitperiod},
+           given={Toni},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{096635b728c3898ca5dabf3654d160d1}
+      \strng{fullhash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{bibnamehash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{authorbibnamehash}{32031e4743c782248d9e30e6983bb2de}
+      \strng{authornamehash}{096635b728c3898ca5dabf3654d160d1}
+      \strng{authorfullhash}{32031e4743c782248d9e30e6983bb2de}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Microwave Magazine}
+      \field{month}{11}
+      \field{title}{Aircraft Surveillance From Space: The Future of Air Traffic Control?}
+      \field{year}{2024}
+      \field{pages}{pg.68\bibrangedash pg.76}
+      \range{pages}{-1}
+    \endentry
+    \entry{SpaceBasedADSBChangesFlying}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7525ba4c83767e99cf785aa68f26cb6}{%
+           family={Business},
+           familyi={B\bibinitperiod},
+           given={AirGuide},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{fullhash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{bibnamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authorbibnamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authornamehash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \strng{authorfullhash}{a7525ba4c83767e99cf785aa68f26cb6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pyramid Media Group, Inc}
+      \field{month}{3}
+      \field{title}{How space-based ADS-B plane-tracking tech is changing flying across the North Atlantic.}
+      \field{year}{2022}
+    \endentry
+    \entry{EUROCONTROLAircraftPerformance}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fda1ae1d8b330e0abf0735548ea3eb7}{%
+           family={{EUROCONTROL}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{fullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{bibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorbibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authornamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorfullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://contentzone.eurocontrol.int/aircraftperformance/details.aspx?}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Aircraft Performance Database}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FAA_DEC}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6baf5d924bfc839b6056cf14b7299f2f}{%
+           family={{Federal Aviation Administration}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{fullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{bibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorbibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authornamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorfullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.faa.gov/air_traffic/flight_info/aeronav/productcatalog/digitalproducts/dec/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Digital Enroute Charts (DEC)}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FAA_NAT}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6baf5d924bfc839b6056cf14b7299f2f}{%
+           family={{Federal Aviation Administration}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{fullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{bibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorbibnamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authornamehash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \strng{authorfullhash}{6baf5d924bfc839b6056cf14b7299f2f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.notams.faa.gov/common/nat.html}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{North Atlantic Tracks (NAT) NOTAMs}
+      \field{year}{n.d.}
+    \endentry
+    \entry{FlightAwareAeroAPI}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=eadece48368546906390d51f41ab348b}{%
+           family={{FlightAware}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eadece48368546906390d51f41ab348b}
+      \strng{fullhash}{eadece48368546906390d51f41ab348b}
+      \strng{bibnamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authorbibnamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authornamehash}{eadece48368546906390d51f41ab348b}
+      \strng{authorfullhash}{eadece48368546906390d51f41ab348b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.flightaware.com/commercial/aeroapi/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{AeroAPI: Flight Tracking and Flight Status API}
+      \field{year}{n.d.}
+    \endentry
+    \entry{flightRadar}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b695132c93d27aeed6669366487ec0ae}{%
+           family={Flightradar24},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Flightradar24}%
+      }
+      \strng{namehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{fullhash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{bibnamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authorbibnamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authornamehash}{b695132c93d27aeed6669366487ec0ae}
+      \strng{authorfullhash}{b695132c93d27aeed6669366487ec0ae}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{04}
+      \field{title}{How does ADS-B work?}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=7K1xFb1REHU
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=7K1xFb1REHU
+      \endverb
+    \endentry
+    \entry{ForeFlight}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5d422d6f6e02d9e486932c5de18e1937}{%
+           family={{ForeFlight}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{fullhash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{bibnamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authorbibnamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authornamehash}{5d422d6f6e02d9e486932c5de18e1937}
+      \strng{authorfullhash}{5d422d6f6e02d9e486932c5de18e1937}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{ForeFlight Blog}
+      \field{title}{North Atlantic tracks}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://ba.foreflight.com/blog/north-atlantic-tracks
+      \endverb
+      \verb{url}
+      \verb https://ba.foreflight.com/blog/north-atlantic-tracks
+      \endverb
+    \endentry
+    \entry{AireonSpaceBasedADSBPerformanceModel}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2a1125838428f73e781cfd0245c1420f}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={Dr.\bibnamedelimi Michael\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c22c98a4d77acd60e7c1f7c6c0bbaf1}{%
+           family={Stafford},
+           familyi={S\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7728d15fd364e9bdbb93ce36684041bf}{%
+           family={Minnix},
+           familyi={M\bibinitperiod},
+           given={Dr.Jay},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea1393f6cf9bcbc1103e8795c0d0117b}{%
+           family={Dolan},
+           familyi={D\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{2}{%
+        {Integrated Communications Navigation}%
+        {Surveillance (ICNS) Conference}%
+      }
+      \strng{namehash}{424051a73322d6b7fbf41ad970f8ce5f}
+      \strng{fullhash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{bibnamehash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{authorbibnamehash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \strng{authornamehash}{424051a73322d6b7fbf41ad970f8ce5f}
+      \strng{authorfullhash}{b3750a8af7e67d98dc6472658a7e17b5}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{AIREON SPACE BASED ADS-B PERFORMANCE MODEL}
+      \field{year}{2015}
+      \field{pages}{pg.C2-1 - pg.C2\bibrangedash 10}
+      \range{pages}{-1}
+    \endentry
+    \entry{ICAO2007}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a65e1805611d67a7aa59578c593ca553}{%
+           family={{International Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{fullhash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{bibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorbibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authornamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorfullhash}{a65e1805611d67a7aa59578c593ca553}
+      \field{extraname}{1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.icao.int/APAC/Documents/edocs/cns/gmst_technology.pdf}}
+      \field{month}{9}
+      \field{title}{Guidance Material on Comparison of Surveillance Technologies (GMST)}
+      \field{year}{2007}
+    \endentry
+    \entry{ICAO_FIR}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a65e1805611d67a7aa59578c593ca553}{%
+           family={{International Civil Aviation Organization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{fullhash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{bibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorbibnamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authornamehash}{a65e1805611d67a7aa59578c593ca553}
+      \strng{authorfullhash}{a65e1805611d67a7aa59578c593ca553}
+      \field{extraname}{2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://gis.icao.int/icaofir/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{ICAO Flight Information Regions (FIR) GIS Database}
+      \field{year}{n.d.}
+    \endentry
+    \entry{NaturalEarth}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d8d97cbb83c176a9c4f481742eb3a014}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50484019193f9d0706d767014edd8d87}{%
+           family={Kelso},
+           familyi={K\bibinitperiod},
+           given={Nathaniel\bibnamedelima Vaughn},
+           giveni={N\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{fullhash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{bibnamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authorbibnamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authornamehash}{38b8e9cfa741c75d987222792fa54450}
+      \strng{authorfullhash}{38b8e9cfa741c75d987222792fa54450}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.naturalearthdata.com/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{Natural Earth: Free vector and raster map data at 1:10m, 1:50m, and 1:110m scales}
+      \field{year}{2009}
+    \endentry
+    \entry{QGIS}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=87a6547ad0a49e77c9adf891d4365979}{%
+           family={{QGIS Development Team}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{fullhash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{bibnamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authorbibnamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authornamehash}{87a6547ad0a49e77c9adf891d4365979}
+      \strng{authorfullhash}{87a6547ad0a49e77c9adf891d4365979}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://qgis.org/}}
+      \field{note}{Accessed: March 2025}
+      \field{title}{QGIS Geographic Information System}
+      \field{year}{2002}
+    \endentry
+    \entry{OTS}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=134b25da1beac8f995696345e49ae3d5}{%
+           family={Rodionova},
+           familyi={R\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1114d9239b127ca996745989dab25676}{%
+           family={Sbihi},
+           familyi={S\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=724f19394ff905be4ed7b245765f1656}{%
+           family={Delahaye},
+           familyi={D\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0aa4f8579303710b71430ead48cc5909}{%
+           family={Mongeau},
+           familyi={M\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3b6e8f37920d5b8fa1ddef3d260c1678}
+      \strng{fullhash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{bibnamehash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{authorbibnamehash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \strng{authornamehash}{3b6e8f37920d5b8fa1ddef3d260c1678}
+      \strng{authorfullhash}{9fe79ef80fee3b16e527bd02ca26aba3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Intelligent Transportation Systems, IEEE Transactions on}
+      \field{month}{10}
+      \field{title}{North Atlantic Aircraft Trajectory Optimization}
+      \field{volume}{15}
+      \field{year}{2014}
+      \field{pages}{2202\bibrangedash 2212}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TITS.2014.2312315
+      \endverb
+    \endentry
+    \entry{SKYbrary}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79a2ac615c1a21a18553185ee68e65a}{%
+           family={{SKYbrary}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{fullhash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{bibnamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authorbibnamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authornamehash}{b79a2ac615c1a21a18553185ee68e65a}
+      \strng{authorfullhash}{b79a2ac615c1a21a18553185ee68e65a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{SKYbrary}
+      \field{title}{North Atlantic operations - airspace}
+      \field{year}{n.d.}
+      \verb{urlraw}
+      \verb https://skybrary.aero/articles/north-atlantic-operations-airspace
+      \endverb
+      \verb{url}
+      \verb https://skybrary.aero/articles/north-atlantic-operations-airspace
+      \endverb
+    \endentry
+    \entry{T2}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee5ad301c025df4d6e73f613e06dc048}{%
+           family={Terminal2Solutions},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{fullhash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{bibnamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authorbibnamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authornamehash}{ee5ad301c025df4d6e73f613e06dc048}
+      \strng{authorfullhash}{ee5ad301c025df4d6e73f613e06dc048}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{T2:Controller}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://t2s.aero/products/controller
+      \endverb
+      \verb{url}
+      \verb https://t2s.aero/products/controller
+      \endverb
+    \endentry
+    \entry{Young2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3b32658318174b623276ac69a08f9fc}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{fullhash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{bibnamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authorbibnamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authornamehash}{a3b32658318174b623276ac69a08f9fc}
+      \strng{authorfullhash}{a3b32658318174b623276ac69a08f9fc}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://nats.aero/blog/2021/03/nats-records-first-day-with-zero-westbound-north-atlantic-tracks/}}
+      \field{month}{3}
+      \field{title}{NATS records first day with zero westbound North Atlantic tracks}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

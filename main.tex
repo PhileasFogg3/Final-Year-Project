@@ -813,19 +813,31 @@ Additionally, Table 3.8 shows the percentage difference in the time it takes eac
     \end{tabular}
 \end{table}
 
-Ultimately, Table 3.8 shows that the airspace density has a somewhat significant impact on the time it takes to cross the Atlantic, with the highest difference being 18.12%.  
+Ultimately, Table 3.8 shows that the airspace density has a somewhat significant impact on the time it takes to cross the Atlantic, with the highest difference being 18.12\%.  
 
-\subsection{Summary of Results}
+\subsection{Overall Summary of Results}
 Ultimately, there are several key observations that can be taken away from the simulations:
 \begin{enumerate}
     \item The time taken for aircraft to cross the North Atlantic Ocean is much smaller using the Zero Track system compared to the OTS. 
     \item Traffic Density has a much bigger impact on flight times for the Zero Track system compared to the OTS. 
-    \item The relationship of interventions to traffic density is exponential for the OTS, but linear for the Zero Track System (although there is a flaw with the software that could have manipulated these numbers). 
+    \item The relationship of interventions to traffic density is exponential for the OTS, but linear for the Zero Track System (although there is a flaw with the software that could have manipulated this relationship). 
 \end{enumerate}
 
 \newpage
 \section{Discussion}
+Assessing the two different methods of air traffic management is not an easy task, both systems clearly have positives and negatives. 
 
+First of all, the OTS is limited by its own design; there can only be so many aircraft on each oceanic track at any given moment in time due to the strict separation requirements. Additionally, the OTS does not tend to follow the most direct path across the Atlantic, in Tables 3.1 and 3.4 (100\% traffic density for OTS and zero tracks, respectively), time differences between 20 and 30 minutes for most aircraft can be observed. This is not an insignificant amount of time, both in terms of the environmental impact of burning aviation fuel, but also in terms of extra time that is freed up in the aircraft’s schedule. The longer a flight takes, the more fuel it requires. Not only does this extra fuel come at a cost to the environment, but it also impacts those who wish to travel by aircraft; more fuel means an increased ticket price. This is why low-cost airlines charge so much for extra baggage and are so strict on the maximum suitcase dimensions and weight. Making travel by aviation cheaper, and therefore more accessible, will only result in positives for the industry; more customers mean more streams of revenue. For the airlines, shorter flights mean that there is the potential for longer turnaround times at major airports (assuming the airport has capacity for such a thing). More importantly, it adds extra slack in a very tight schedule. If a long turnaround is planned, it means that there is a bigger opportunity to make up time in the event of delays. 
+
+However, the Zero track system is also limited as it requires a more “hands on approach” by air traffic controllers. Even though the raw data provided by the simulation is clearly wrong, it is clear that there is a higher number of traffic conflicts when using the zero track system. This assertion can be made because of the nature of the bug, which was previously explained. The more conflicts that are detected, the more out of sync the RADAR software gets, logging the same conflicts an increasing number of times each. However, this is hardly surprising. Aircraft operating between any entry and exit point in oceanic airspace is bound to result in aircraft flying over eachother’s paths, resulting in conflicts. 
+
+In addition, the simulation produced in the RADAR software is purely reactionary in nature in its approach to dealing with conflicts in the sense that if a problem comes up, it will deal with it then. A better approach would be to plan aircraft in a sequence that minimises potential route crossings. This simply could not be simulated for this project due to the intense processing power required for such a calculation; it was simply not possible inside the software used. However, it would be very achievable for two large governmental organisations such as NAV Canada and NATS. 
+
+The lack of weather simulation cannot be ignored. In reality, the Oceanic Tracks are picked partially to make use of the weather, giving aircraft the most optimum route, usually involving a large tailwind component. That, of course, has not been considered in this simulation, nor has the effect of any potential headwind. This is not an insignificant factor, as some zero track paths may end up taking longer to complete than the North Atlantic Tracks because of the headwind component. Additionally, the aircraft in the RADAR simulation fly along rhumb lines when not following a NAT track; in reality, they would be more likely to follow a great circle, as they are always the shortest possible distance. These two factors combined may result in the Oceanic crossing time for the zero track system to increase, but it is not possible to reasonably quantify how big this impact is. 
+
+Outside of the Aircraft Surveillance scope, the introduction of Space-Based ADS-B technology has resulted in the ability to track aircraft anywhere on the globe. This has major implications, mostly in the event of catastrophic failure. Take Malaysian Airlines Flight 370, for example, an aircraft that vanished while operating in a “RADAR dead” part of south-east Asia. With the introduction of Aircraft Tracking, thanks to Space-Based ADS-B technology provided by Aireon, aircraft can be monitored anywhere on the globe. While this will not prevent accidents, like the kind that happened to MH 370, they will aid in the subsequent investigation and therefore provide information that can be learned from going forward.
+
+\newpage
 \section{Conclusions}
 \section{Recommendations}
 

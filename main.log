@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  25 APR 2025 02:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.16)  25 APR 2025 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1085,7 +1085,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 56.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 87.
  (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (main.aux
@@ -1095,24 +1095,24 @@ LaTeX Warning: Label `fig:3.4' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1167,7 +1167,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring OFF on input line 87.
  (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -1209,19 +1209,19 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 56.
-Package biblatex Info: Reference segment=0 on input line 56.
+Package biblatex Info: Reference section=0 on input line 87.
+Package biblatex Info: Reference segment=0 on input line 87.
 
 Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 
 \c@lstlisting=\count515
-LaTeX Info: Redefining \celsius on input line 56.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 56.
+LaTeX Info: Redefining \celsius on input line 87.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 87.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 56.
-Package gensymb Info: Using \upOmega for \ohm on input line 56.
+LaTeX Info: Redefining \ohm on input line 87.
+Package gensymb Info: Using \upOmega for \ohm on input line 87.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1278,87 +1278,83 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \tf@lot=\write10
 \openout10 = `main.lot'.
 
- [6] (main.equ)
-\tf@equ=\write11
-\openout11 = `main.equ'.
-
- [7] [8]
-<pictures/Figure 1.1.jpg, id=345, 1782.66pt x 820.56563pt>
+ [6] [7] [8]
+<pictures/Figure 1.1.jpg, id=351, 1782.66pt x 820.56563pt>
 File: pictures/Figure 1.1.jpg Graphic file (type jpg)
 <use pictures/Figure 1.1.jpg>
-Package pdftex.def Info: pictures/Figure 1.1.jpg  used on input line 86.
+Package pdftex.def Info: pictures/Figure 1.1.jpg  used on input line 115.
 (pdftex.def)             Requested size: 498.26744pt x 229.35614pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 86--87
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 115--116
  [][] 
  []
 
 [9 <./pictures/Figure 1.1.jpg>] [10] [11] [12]
-<pictures/Figure 1.2.jpg, id=374, 855.195pt x 858.95906pt>
+<pictures/Figure 1.2.jpg, id=380, 855.195pt x 858.95906pt>
 File: pictures/Figure 1.2.jpg Graphic file (type jpg)
 <use pictures/Figure 1.2.jpg>
-Package pdftex.def Info: pictures/Figure 1.2.jpg  used on input line 136.
+Package pdftex.def Info: pictures/Figure 1.2.jpg  used on input line 165.
 (pdftex.def)             Requested size: 498.26744pt x 500.45094pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 136--137
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 165--166
  [][] 
  []
 
 [13] [14 <./pictures/Figure 1.2.jpg>] [15]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 162.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 191.
  (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [16] [17] [18] [19]
-<pictures/Figure 2.1 FYP.jpg, id=434, 1925.69438pt x 1023.07219pt>
+<pictures/Figure 2.1 FYP.jpg, id=440, 1925.69438pt x 1023.07219pt>
 File: pictures/Figure 2.1 FYP.jpg Graphic file (type jpg)
 <use pictures/Figure 2.1 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.1 FYP.jpg  used on input line 213.
+Package pdftex.def Info: pictures/Figure 2.1 FYP.jpg  used on input line 242.
 (pdftex.def)             Requested size: 498.26744pt x 264.7124pt.
-
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 213--214
- [][] 
- []
-
-[20 <./pictures/Figure 2.1 FYP.jpg>]
-<pictures/Figure 2.2 FYP.jpg, id=443, 1925.69438pt x 1045.65656pt>
-File: pictures/Figure 2.2 FYP.jpg Graphic file (type jpg)
-<use pictures/Figure 2.2 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.2 FYP.jpg  used on input line 222.
-(pdftex.def)             Requested size: 498.26744pt x 270.55594pt.
-
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 222--223
- [][] 
- []
-
-<pictures/Figure 2.3 FYP.jpg, id=444, 1724.69344pt x 920.68968pt>
-File: pictures/Figure 2.3 FYP.jpg Graphic file (type jpg)
-<use pictures/Figure 2.3 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.3 FYP.jpg  used on input line 233.
-(pdftex.def)             Requested size: 498.26744pt x 265.98167pt.
-
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 233--234
- [][] 
- []
-
-[21 <./pictures/Figure 2.2 FYP.jpg>]
-<pictures/Figure 2.4 FYP.jpg, id=449, 395.97937pt x 360.59718pt>
-File: pictures/Figure 2.4 FYP.jpg Graphic file (type jpg)
-<use pictures/Figure 2.4 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.4 FYP.jpg  used on input line 242.
-(pdftex.def)             Requested size: 498.26744pt x 453.7551pt.
 
 Overfull \hbox (45.29955pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
-[22 <./pictures/Figure 2.3 FYP.jpg>]
-<pictures/Figure 2.5 FYP.jpg, id=454, 401.24907pt x 909.3975pt>
-File: pictures/Figure 2.5 FYP.jpg Graphic file (type jpg)
-<use pictures/Figure 2.5 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.5 FYP.jpg  used on input line 251.
-(pdftex.def)             Requested size: 498.26744pt x 1129.36194pt.
+[20 <./pictures/Figure 2.1 FYP.jpg>]
+<pictures/Figure 2.2 FYP.jpg, id=449, 1925.69438pt x 1045.65656pt>
+File: pictures/Figure 2.2 FYP.jpg Graphic file (type jpg)
+<use pictures/Figure 2.2 FYP.jpg>
+Package pdftex.def Info: pictures/Figure 2.2 FYP.jpg  used on input line 251.
+(pdftex.def)             Requested size: 498.26744pt x 270.55594pt.
 
 Overfull \hbox (45.29955pt too wide) in paragraph at lines 251--252
+ [][] 
+ []
+
+<pictures/Figure 2.3 FYP.jpg, id=450, 1724.69344pt x 920.68968pt>
+File: pictures/Figure 2.3 FYP.jpg Graphic file (type jpg)
+<use pictures/Figure 2.3 FYP.jpg>
+Package pdftex.def Info: pictures/Figure 2.3 FYP.jpg  used on input line 262.
+(pdftex.def)             Requested size: 498.26744pt x 265.98167pt.
+
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 262--263
+ [][] 
+ []
+
+[21 <./pictures/Figure 2.2 FYP.jpg>]
+<pictures/Figure 2.4 FYP.jpg, id=455, 395.97937pt x 360.59718pt>
+File: pictures/Figure 2.4 FYP.jpg Graphic file (type jpg)
+<use pictures/Figure 2.4 FYP.jpg>
+Package pdftex.def Info: pictures/Figure 2.4 FYP.jpg  used on input line 271.
+(pdftex.def)             Requested size: 498.26744pt x 453.7551pt.
+
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 271--272
+ [][] 
+ []
+
+[22 <./pictures/Figure 2.3 FYP.jpg>]
+<pictures/Figure 2.5 FYP.jpg, id=460, 401.24907pt x 909.3975pt>
+File: pictures/Figure 2.5 FYP.jpg Graphic file (type jpg)
+<use pictures/Figure 2.5 FYP.jpg>
+Package pdftex.def Info: pictures/Figure 2.5 FYP.jpg  used on input line 280.
+(pdftex.def)             Requested size: 498.26744pt x 1129.36194pt.
+
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 280--281
  [][] 
  []
 
@@ -1366,118 +1362,128 @@ Overfull \hbox (45.29955pt too wide) in paragraph at lines 251--252
 Overfull \vbox (478.31981pt too high) has occurred while \output is active []
 
  [24 <./pictures/Figure 2.5 FYP.jpg>]
-<pictures/Figure 2.6 FYP.jpg, id=463, 1920.42468pt x 1048.66782pt>
+<pictures/Figure 2.6 FYP.jpg, id=469, 1920.42468pt x 1048.66782pt>
 File: pictures/Figure 2.6 FYP.jpg Graphic file (type jpg)
 <use pictures/Figure 2.6 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.6 FYP.jpg  used on input line 260.
+Package pdftex.def Info: pictures/Figure 2.6 FYP.jpg  used on input line 289.
 (pdftex.def)             Requested size: 498.26744pt x 272.07115pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 260--261
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 289--290
  [][] 
  []
 
 [25 <./pictures/Figure 2.6 FYP.jpg>]
-<pictures/Figure 2.7 FYP.jpg, id=469, 1924.94156pt x 1045.65656pt>
+<pictures/Figure 2.7 FYP.jpg, id=475, 1924.94156pt x 1045.65656pt>
 File: pictures/Figure 2.7 FYP.jpg Graphic file (type jpg)
 <use pictures/Figure 2.7 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.7 FYP.jpg  used on input line 272.
+Package pdftex.def Info: pictures/Figure 2.7 FYP.jpg  used on input line 301.
 (pdftex.def)             Requested size: 498.26744pt x 270.66763pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 272--273
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 301--302
  [][] 
  []
 
 [26 <./pictures/Figure 2.7 FYP.jpg>] [27] [28]
-<pictures/Figure 2.8 FYP.jpg, id=491, 971.88094pt x 478.78876pt>
+<pictures/Figure 2.8 FYP.jpg, id=497, 971.88094pt x 478.78876pt>
 File: pictures/Figure 2.8 FYP.jpg Graphic file (type jpg)
 <use pictures/Figure 2.8 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.8 FYP.jpg  used on input line 339.
+Package pdftex.def Info: pictures/Figure 2.8 FYP.jpg  used on input line 368.
 (pdftex.def)             Requested size: 498.26744pt x 245.46483pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 339--340
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 368--369
  [][] 
  []
 
 [29 <./pictures/Figure 2.8 FYP.jpg>] [30] [31]
-<pictures/Figure 2.9 FYP.jpg, id=511, 1591.44562pt x 740.7675pt>
+<pictures/Figure 2.9 FYP.jpg, id=517, 1591.44562pt x 740.7675pt>
 File: pictures/Figure 2.9 FYP.jpg Graphic file (type jpg)
 <use pictures/Figure 2.9 FYP.jpg>
-Package pdftex.def Info: pictures/Figure 2.9 FYP.jpg  used on input line 393.
+Package pdftex.def Info: pictures/Figure 2.9 FYP.jpg  used on input line 422.
 (pdftex.def)             Requested size: 498.26744pt x 231.9188pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 393--394
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 422--423
  [][] 
  []
 
 [32] [33 <./pictures/Figure 2.9 FYP.jpg>] [34] [35] [36]
-<pictures/Figure 3.1.png, id=536, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.1.png, id=542, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.1.png Graphic file (type png)
 <use pictures/Figure 3.1.png>
-Package pdftex.def Info: pictures/Figure 3.1.png  used on input line 438.
+Package pdftex.def Info: pictures/Figure 3.1.png  used on input line 467.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 438--439
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 467--468
  [][] 
  []
 
 [37] [38 <./pictures/Figure 3.1.png>]
-<pictures/Figure 3.2.png, id=548, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.2.png, id=554, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.2.png Graphic file (type png)
 <use pictures/Figure 3.2.png>
-Package pdftex.def Info: pictures/Figure 3.2.png  used on input line 478.
+Package pdftex.def Info: pictures/Figure 3.2.png  used on input line 507.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 478--479
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 507--508
  [][] 
  []
 
 [39] [40 <./pictures/Figure 3.2.png>]
-<pictures/Figure 3.3.png, id=558, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.3.png, id=564, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.3.png Graphic file (type png)
 <use pictures/Figure 3.3.png>
-Package pdftex.def Info: pictures/Figure 3.3.png  used on input line 521.
+Package pdftex.def Info: pictures/Figure 3.3.png  used on input line 550.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 521--522
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 550--551
  [][] 
  []
 
 [41] [42 <./pictures/Figure 3.3.png>] [43] [44]
-<pictures/Figure 3.5.png, id=577, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.5.png, id=583, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.5.png Graphic file (type png)
 <use pictures/Figure 3.5.png>
-Package pdftex.def Info: pictures/Figure 3.5.png  used on input line 630.
+Package pdftex.def Info: pictures/Figure 3.5.png  used on input line 659.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 630--631
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 659--660
  [][] 
  []
 
 [45] [46 <./pictures/Figure 3.5.png>]
-<pictures/Figure 3.6.png, id=587, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.6.png, id=593, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.6.png Graphic file (type png)
 <use pictures/Figure 3.6.png>
-Package pdftex.def Info: pictures/Figure 3.6.png  used on input line 674.
+Package pdftex.def Info: pictures/Figure 3.6.png  used on input line 703.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 674--675
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 703--704
  [][] 
  []
 
 [47] [48 <./pictures/Figure 3.6.png>]
-<pictures/Figure 3.7.png, id=597, 1850.112pt x 959.0229pt>
+<pictures/Figure 3.7.png, id=603, 1850.112pt x 959.0229pt>
 File: pictures/Figure 3.7.png Graphic file (type png)
 <use pictures/Figure 3.7.png>
-Package pdftex.def Info: pictures/Figure 3.7.png  used on input line 715.
+Package pdftex.def Info: pictures/Figure 3.7.png  used on input line 744.
 (pdftex.def)             Requested size: 498.26744pt x 258.28114pt.
 
-Overfull \hbox (45.29955pt too wide) in paragraph at lines 715--716
+Overfull \hbox (45.29955pt too wide) in paragraph at lines 744--745
  [][] 
  []
 
-[49] [50 <./pictures/Figure 3.7.png>] [51] [52] [53] [54] [55] [56] [57] [58
+[49] [50 <./pictures/Figure 3.7.png>] [51] [52] [53] [54] [55] [56] [57] [58] [59
 
-] AED endfloat: Processing end Figures and Tables [59] (main.aux)
+] [60] (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2023/02/27 1.9 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 889.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 889.
+ (C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 890.
+ [61{C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}] [62] [63] [64] [65] [66] [67] [68] AED endfloat: Processing end Figures and Tables [69] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1487,23 +1493,23 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5E36EDD3C79B65CB54568A8604187BAD;8436.
+(rerunfilecheck)             Checksum: AFB8F4C0C205C923342BF947D032FD48;8508.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46379 strings out of 474486
- 1035868 string characters out of 5743282
- 2008286 words of memory out of 5000000
- 67779 multiletter control sequences out of 15000+600000
- 603032 words of font info for 88 fonts, out of 8000000 for 9000
+ 47155 strings out of 474486
+ 1044528 string characters out of 5743282
+ 2185951 words of memory out of 5000000
+ 68337 multiletter control sequences out of 15000+600000
+ 605013 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,107p,1566b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (59 pages, 4214732 bytes).
+<C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Philip/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (69 pages, 4329984 bytes).
 PDF statistics:
- 723 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 434 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1023 PDF objects out of 1200 (max. 8388607)
+ 383 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -508,12 +508,6 @@ INPUT .\main.lot
 INPUT .\main.lot
 INPUT main.lot
 OUTPUT main.lot
-INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT .\main.equ
-INPUT .\main.equ
-INPUT main.equ
-OUTPUT main.equ
 INPUT .\pictures\Figure 1.1.jpg
 INPUT .\pictures\Figure 1.1.jpg
 INPUT .\pictures\Figure 1.1.jpg
@@ -654,6 +648,20 @@ INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-ec.enc
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -663,6 +671,10 @@ INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\Philip\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb

@@ -9,9 +9,23 @@
 \course{Aircraft Engineering with Pilot Studies}
 \professor{Miss Frances Wolff, Dr Viktoriia Myroniuk}
 \duedate{25/04/25}
-\keywords{}
-\authornote{}
-\abstract{}
+\keywords{ADS-B,
+RADAR,
+Aircraft Tracking,
+Aircraft Surveillance,
+Nav Canada,
+NATS,
+The Organised Track System,
+GMT,
+IFF,
+Open-Source,
+Sector File,
+AIRAC Cycle,
+Rhumb Line,
+Great Circle,
+}
+\authornote{Firstly I'd like to thank Terminal2Solutions for their support throughout the course of their project. They have kindly allowed me to use their experimental software free of charge in order to complete my simulations, while providing many, many hotfixes at all times of the day and night to make sure I can complete this research. I would also like to thank my parents, friends and family for constantly being supportive throughout my academic journey. Thank you.}
+\abstract{Space-Based ADS-B is a new method of receiving and transmitting ADS-B communication signals from aircraft to air traffic surveillance and tracking stations. It is an advantageous method of surveillance and tracking since it requires no ground stations. Instead, coverage is provided by a constellation of satellites, which achieves global reach. This project aims to explore the implications of this when used for air traffic management, in particular over the North Atlantic Ocean. Ultimately, simulations conducted show that the use of Space-Based ADS-B methods of air traffic management reduces flight times at the expense of the agencies needing to manage the airspace; they have to deal with more conflicts than if tracks were used.}
 
 % Packages Required
 \usepackage{csquotes}
@@ -53,6 +67,23 @@
 % Makes sure LaTeX knows where we are :D
 \DeclareLanguageMapping{british}{british-apa}
 
+% Python
+\lstdefinestyle{mypython}{
+  language=Python,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\bfseries,
+  commentstyle=\color{gray},
+  stringstyle=\color{green!50!black},
+  showstringspaces=false,
+  breaklines=true,
+  frame=single,
+  captionpos=b,
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  xleftmargin=2em,
+  framexleftmargin=1.5em
+}
+
 \begin{document}
 
 \maketitle{} % Generates the title page
@@ -64,8 +95,6 @@
 \listoffigures
 \addcontentsline{toc}{subsection}{List of Tables}
 \listoftables
-\addcontentsline{toc}{subsection}{List of Equations}
-\listofmyequations
 
 \newpage
 \section{Introduction}
@@ -437,7 +466,7 @@ The distribution of aircraft entering oceanic airspace for Scenario One can be s
     \centering
     \includegraphics[width=1.1\textwidth]{pictures/Figure 3.1.png}    
 \end{figure}
-Figure 3.1 is useful as it provides clarification that the aircraft was created in a realistic and expected way by the software. It can easily be observed that the busiest time periods are in the middle of each oceanic crossing period. Furthermore, the first and final phases of the scenario have peaks that are much narrower; this is because their respective phases are cut short by the 48-hour simulation; they only last for 6 hours, whereas the others last for 48. We can expect to see a similar occurrence in the distribution of aircraft entering oceanic airspace in the other scenarios.
+Figure 3.1 is useful as it provides clarification that the aircraft was created in a realistic and expected way by the software. It can easily be observed that the busiest time periods are in the middle of each oceanic crossing period. Furthermore, the first and final phases of the scenario have peaks that are much narrower; this is because their respective phases are cut short by the 48-hour simulation; they only last for 6 hours, whereas the others last for 48. Therefore it can be expected to see a similar occurrence in the distribution of aircraft entering oceanic airspace in the other scenarios.
 Table 3.1 shows the average information for the different types of air traffic that made the Atlantic crossing in this simulation. Throughout this 48-period, on 129 occasions, a traffic intervention occurred - preventing two aircraft from colliding. 
 
 \begin{table}[H]
@@ -632,7 +661,7 @@ The distribution of aircraft entering oceanic airspace for Scenario Four can be 
 
 Table 3.5 shows the average information for the different types of air traffic that made the Atlantic crossing in this simulation. According to the software, on 118358 occasions throughout the 48-hour period, a traffic intervention occured - preventing two aircraft from colliding. This number is incredibly high and is likely incorrect due to several factors:
 When visually inspecting the simulation (while in progress), there are not this many conflicts. 
-If true, there would be a conflict roughly every two seconds (assuming a constant stream of traffic, which we know is not the case). 
+If true, there would be a conflict roughly every two seconds (assuming a constant stream of traffic, which is not the case). 
 Unfortunately, very late into the project, a “bug” inside of the RADAR software was encountered, which triggered the logging of a conflict numerous times per conflict. The effect of this bug got exponentially larger as the number of conflicts increased.
 
 \begin{table}[H]
@@ -839,8 +868,223 @@ Outside of the Aircraft Surveillance scope, the introduction of Space-Based ADS-
 
 \newpage
 \section{Conclusions}
-\section{Recommendations}
+To conclude, there is no doubt that Space-Based ADS-B will revolutionise how air traffic is tracked and surveilled in the years to come. The global coverage achieved by Aireron, thanks to the Iridium Constellation of Satellites, cannot be beaten by any conventional primary or secondary RADAR sources, as aircraft are always in range.
+
+This is useful for airlines and air crash investigators in piecing together traffic movements through aircraft tracking solutions; this will ultimately help airlines to plan more efficiently and give additional insight to investigators in the event of a disaster. Furthermore, as proven by the simulation trials, the zero track system (which can be implemented thanks to Space-Based ADS-B) allows flight times to be reduced by up to 30 minutes (without taking the weather into account). This will save airlines time and consumers considerable amounts of money, whilst also making the aviation industry more environmentally sustainable. 
+
+The introduction of zero tracks, however, cannot be rushed, as proven by the simulation, operating a zero track system over the Atlantic will be very resource-intensive for air traffic controllers compared to the Organised Track system. Conventional air traffic services will have to be instituted over the Atlantic to prevent hundreds of potential conflicts each and every day. However, in the context of massive financial and environmental savings for airlines, this seems like the best approach. 
+\subsection{Recommendations}
+Therefore, based on these conclusions, several recommendations should be made:
+\begin{enumerate}
+    \item Zero Track Operations should continue to be trialled by Nav Canada and NATS over the North Atlantic Ocean, and they should receive continuous support from their respective governments, in terms of resources, to assist them in delivering this service.
+    \item Other Governments should consider implementing this system too. In particular, the FAA should look to implement air traffic management by means of Space-Based ADS-B over the Pacific Ocean, with the aid of Airservices Australia, Airways (New Zealand’s air traffic service provider), The Japan Civil Aviation Bureau and others.
+    \item Airlines should continue to cooperate with one another so that efficient routes can be planned across airspace that operates without designated tracks, assisting in the work provided by the air traffic surveillance agencies. 
+    \item Prepare for the future of Aviation. For example, Boom (the in-development Supersonic Airliner). When it was in operation, Concorde had its own tracks across the Atlantic Ocean, because of its high cruising speed and altitude. Air traffic management agencies must stay agile and able to implement new strategies for the needs of different types of aircraft.  
+\end{enumerate}
+By implementing these four recommendations, Space-Based ADS-B can become the future of Air traffic management, not just over the North Atlantic Ocean, but across the whole world.
 
 \printbibliography
+\newpage
+\section{Appendix A}
+\begin{lstlisting}[style=mypython, caption={Convert GeoJSON Coordinates (in radians) to DDDMMSS Format with Direction. This script was used as described in Chapter 2.}]
+    import json
+    
+    def degrees_to_dms_with_direction(deg, is_latitude):
+        """
+        Converts degrees to DDDMMSS format with directional prefix (N/S/E/W).
+        :param deg: Degree value (float or int)
+        :param is_latitude: Boolean indicating if the value is latitude
+        :return: Formatted string in "DDDMMSS" with directional prefix
+        """
+        direction = ''
+        if is_latitude:
+            direction = 'N' if deg >= 0 else 'S'
+        else:
+            direction = 'E' if deg >= 0 else 'W'
+    
+        deg = abs(deg)
+        d = int(deg)
+        md = (deg - d) * 60
+        m = int(md)
+        sd = int((md - m) * 60)
+    
+        return f"{direction}{d:03d}{m:02d}{sd:02d}"
+    
+    def convert_coordinates(coords, is_latitude=False):
+        """
+        Recursively converts coordinates to "DDDMMSS" format with directional prefix.
+        :param coords: List of coordinates or a single coordinate pair
+        :param is_latitude: Boolean indicating if the coordinate is latitude
+        :return: Converted coordinates
+        """
+        if isinstance(coords[0], (float, int)):
+            lon = degrees_to_dms_with_direction(coords[0], is_latitude=False)
+            lat = degrees_to_dms_with_direction(coords[1], is_latitude=True)
+            return [lon, lat]
+        elif isinstance(coords[0], list):
+            return [convert_coordinates(coord) for coord in coords]
+        else:
+            raise ValueError(f"Unexpected coordinate format: {coords}")
+    
+    # Read GEOJSON file
+    with open('Airspace_Boundary.geojson', 'r') as f:
+        geojson_data = json.load(f)
+    
+    # Iterate through features and process coordinates
+    for feature in geojson_data['features']:
+        geometry = feature['geometry']
+        geometry['coordinates'] = convert_coordinates(geometry['coordinates'])
+    
+    # Write back to GEOJSON file
+    with open('firBoundaryConverted.geojson', 'w') as f:
+        json.dump(geojson_data, f, indent=2)
+    
+    print("Conversion complete. Output written to output file.")
+    input("Press Enter to close...")
+\end{lstlisting}
+\begin{lstlisting}[style=mypython, caption={Convert GeoJSON to Simple XML Format}]
+    import json
+    
+    # Function to convert coordinate string to lat/lon
+    # N/S for latitude, E/W for longitude
+    def parse_coordinate(coord):
+        return coord
+    
+    def convert_geojson_to_xml(input_file, output_file):
+        # Load JSON data
+        with open(input_file, 'r') as infile:
+            data = json.load(infile)
+    
+        # Initialize the output XML content
+        output_lines = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>"]
+    
+        for feature in data.get("features", []):
+            output_lines.append("<path>")
+    
+            # Extract coordinates
+            coordinates = feature.get("geometry", {}).get("coordinates", [])
+            for line in coordinates:
+                for coord_pair in line:
+                    lat = parse_coordinate(coord_pair[1])
+                    lon = parse_coordinate(coord_pair[0])
+    
+                    if lat is not None and lon is not None:
+                        output_lines.append(f"    <point lat=\"{lat}\" lon=\"{lon}\"/>")
+    
+            output_lines.append("</path>")
+    
+        # Write the output to file
+        with open(output_file, 'w') as outfile:
+            outfile.write("\n".join(output_lines))
+    
+    # Example usage
+    convert_geojson_to_xml('firBoundaryConverted.geojson', 'firBoundaryMap.xml')
+    
+    print("Conversion complete. Output written to output file.")
+    input("Press Enter to close...")
+\end{lstlisting}
+\newpage
+\section{Appendix B}
+\begin{lstlisting}[style=mypython, caption={24-Hour Flight Data Collection using FlightAware API}]
+    import requests
+    import csv
+    import time
+    from datetime import datetime, timedelta
+    
+    # FlightAware API credentials
+    API_KEY = "API KEY REMOVED FOR PRIVACY"
+    BASE_URL = "https://aeroapi.flightaware.com/aeroapi"
+    
+    # Define the bounding box for the region (North Atlantic example)
+    NORTH_LAT = 65.0   # Northernmost latitude
+    SOUTH_LAT = 30.0   # Southernmost latitude
+    WEST_LON = -70.0   # Westernmost longitude
+    EAST_LON = -10.0   # Easternmost longitude
+    
+    # Run the script for 24 hours (once per hour)
+    TOTAL_RUNS = 24
+    INTERVAL = 3600  # 1 hour in seconds
+    
+    def get_flights():
+        """Fetch flights within a specific latitude/longitude bounding box."""
+        flights_data = []
+        headers = {"x-apikey": API_KEY}
+    
+        url = f"{BASE_URL}/flights/search"
+    
+        # Correctly formatted lat/long query
+        query = f'-latlong "{NORTH_LAT} {WEST_LON} {SOUTH_LAT} {EAST_LON}"'
+    
+        params = {"query": query, "max_pages": 10}
+    
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            response.raise_for_status()
+            flights = response.json().get("flights", [])
+    
+            for flight in flights:
+                callsign = flight.get("ident", "N/A")
+                aircraft_type = flight.get("aircraft_type", "N/A")
+    
+                # Safe extraction of departure airport ICAO code
+                departure_airport = flight.get("origin", {}).get("code_icao", "Unknown")
+    
+                # Safe extraction of destination airport ICAO code
+                if flight.get("destination"):
+                    destination_airport = flight["destination"].get("code_icao", "Unknown")
+                else:
+                    destination_airport = "Unknown"
+    
+                # Extract and format departure time (if available)
+                departure_time = flight.get("actual_departure_time", "N/A")
+                if departure_time != "N/A":
+                    departure_time = datetime.utcfromtimestamp(departure_time).strftime("%Y-%m-%d %H:%M:%S")
+    
+                # Append cleaned data
+                flights_data.append([callsign, aircraft_type, departure_airport, destination_airport, departure_time])
+    
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching flight data: {e}")
+    
+        return flights_data
+    
+    
+    def save_to_csv(flights, timestamp):
+        """Saves flight data to a uniquely named CSV file."""
+        filename = f"flights_log_{timestamp}.csv"
+    
+        with open(filename, mode="w", newline="", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            writer.writerow(["Callsign", "Aircraft Type", "Departure", "Destination", "Departure Time (UTC)"])
+            writer.writerows(flights)
+    
+        print(f"Flight data saved to {filename}")
+    
+    
+    def main():
+        """Runs the flight data collection every hour for 24 hours."""
+        for i in range(TOTAL_RUNS):
+            print(f"Fetching flight data... Run {i+1} of {TOTAL_RUNS}")
+    
+            flights = get_flights()
+    
+            if not flights:
+                print("No flights found in the specified region.")
+            else:
+                # Generate timestamped filename
+                timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+                save_to_csv(flights, timestamp)
+    
+            if i < TOTAL_RUNS - 1:  # Don't sleep after the last run
+                print("Waiting for 1 hour before next run...\n")
+                time.sleep(INTERVAL)  # Wait for 1 hour
+    
+        print("Completed 24-hour flight recording.")
+    
+    
+    if __name__ == "__main__":
+        main()
+    \end{lstlisting}
+    
 
 \end{document}
